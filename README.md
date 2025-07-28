@@ -6,6 +6,10 @@ A background keylogger designed strictly for controlled security research, ethic
 
 This tool captures user keystrokes with input debouncing, logs them into a file, and sends the logs automatically via email using a secure SMTP test service (Mailtrap).
 
+## 📎 License
+
+This project is licensed under the [MIT License](LICENSE).
+
 > ⚠️ **Disclaimer**: This tool is built **strictly for educational purposes and ethical security research**. It must only be used in sandbox or controlled environments. Do not use on any system without proper authorization.
 
 ---
@@ -47,8 +51,14 @@ This tool captures user keystrokes with input debouncing, logs them into a file,
 
 ```python
 server.login('your_mailtrap_username', 'your_mailtrap_password')
+```
 
+⚠️ Ethical Notice
+This project is intended only for:
+Ethical Hacking Labs
+Red-Team Simulations
+Cybersecurity Education
+Misuse of this tool for unauthorized surveillance is strictly prohibited and may be illegal.
 
-⚠️ Disclaimer This tool is strictly for educational and ethical use only. Do not use it on systems you do not own or have permission to test. I do not promote illegal activity of any kind.
-
+```
 Mansi Singh, GitHub: https://github.com/mansi-singh21
